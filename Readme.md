@@ -20,14 +20,6 @@ Hyperspectral imagery encodes rich material properties that can enhance tracking
 
 The environment setting generally follows [DaSSP-Net](https://github.com/hscv/DaSSP-Net). Please refer to its installation instructions to prepare the basic environment.
 
-A typical setup is as follows:
-
-```bash
-conda create -n e2empt python=3.8
-conda activate e2empt
-pip install -r requirements.txt
-```
-
 Please adjust the CUDA, PyTorch, and other package versions according to your local hardware and system configuration.
 
 ## Datasets
